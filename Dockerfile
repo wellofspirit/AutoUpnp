@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Install python
 RUN apt-get update && \
-    apt-get install python pip && \
+    apt-get install -y python pip && \
     pip install -y requirements.txt && \
     apt-get clean && \
     rm -rf \
