@@ -3,6 +3,10 @@
 This project implements a small upnp port mapping program.
 It automatically adds port mapping based on configuration.
 
+It is particularly useful if you are in a nested LAN, 
+where you can access IGP router but your program does not know how to talk to it.
+You still need to configure your local router for port forwarding though
+
 It is designed to run in docker.
 
 So far it only works with certain TP-Link router.
